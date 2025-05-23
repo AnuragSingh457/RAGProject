@@ -6,7 +6,8 @@ import json
 st.set_page_config(page_title="RAG PDF QA", layout="centered")
 st.title("📄 Upload PDF + Ask Questions (RAG App)")
 
-API_URL = "http://localhost:8000"
+#API_URL = "http://localhost:8000"
+API_URL = "https://ragproject.onrender.com"
 
 # --- Upload PDF ---
 st.header("Step 1: Upload a PDF")
